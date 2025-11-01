@@ -77,8 +77,6 @@ O modelo final atingiu o seguinte desempenho no conjunto de testes:
 | Métrica | Valor |
 | :--- | :--- |
 | **Acurácia** | **98.5%** |
-| **F1-Score** | *[Insira F1-Score do seu notebook]* |
-| **AUC Score** | *[Insira AUC Score do seu notebook]* |
 
 O alto nível de acurácia demonstra a eficácia da combinação de engenharia de recursos e otimização do modelo para esta tarefa de classificação.
 
@@ -88,8 +86,8 @@ Para replicar este projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [Link do seu repositório GitHub]
-    cd nome-do-seu-repositorio
+    git clone https://github.com/gus-ant/kaggle-heart-disease-dataset
+    cd kaggle-heart-disease-dataset
     ```
 2.  **Crie e ative o ambiente virtual (opcional, mas recomendado):**
     ```bash
@@ -99,7 +97,7 @@ Para replicar este projeto localmente, siga os passos abaixo:
     ```
 3.  **Instale as dependências:**
     ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn [Outras libs específicas como xgboost]
+    pip install pandas numpy scikit-learn matplotlib seaborn 
     ```
 4.  **Execute o Notebook:**
     Abra o arquivo `.ipynb` no Jupyter Notebook ou Jupyter Lab para visualizar e rodar o código passo a passo.
