@@ -8,6 +8,23 @@ Meu Dataset no Kaggle com a explicação completa: https://www.kaggle.com/code/g
 
 ## Gráficos gerados
 
+### Feature Importances
+
+Esta visualização mostra quais atributos do paciente tiveram maior peso na decisão do modelo. É essencial para entender a relevância clínica de cada variável para a previsão de doença cardíaca.
+
+![feature importance](https://github.com/gus-ant/kaggle-heart-disease-dataset/blob/main/feat_importance.png)
+
+### Correlation Matrix
+
+A matriz de correlação ilustra as relações lineares entre todas as variáveis. Esta análise foi crucial para identificar possíveis problemas de multicolinearidade e entender como as características se agrupam.
+
+![correlation matrix](https://github.com/gus-ant/kaggle-heart-disease-dataset/blob/main/correlation_mat.png)
+
+### Confusion Matrix
+
+A matriz de confusão valida o desempenho do modelo no conjunto de testes, mostrando a contagem de previsões corretas (Verdadeiros Positivos e Verdadeiros Negativos) e incorretas. Ela é a base para o cálculo da acurácia de 98.5%.
+
+![confusion matrix](https://github.com/gus-ant/kaggle-heart-disease-dataset/blob/main/conf_matrix.png)
 
 ##  Objetivo
 
