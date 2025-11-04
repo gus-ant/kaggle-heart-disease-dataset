@@ -53,7 +53,7 @@ O projeto utiliza o amplamente reconhecido **Heart Disease Dataset** da UCI, que
 
 O projeto foi desenvolvido em Python e utiliza as seguintes bibliotecas principais:
 
-* **Python** (3.x)
+* **Python** (3.12)
 * **Jupyter Notebook** (ou ambiente de desenvolvimento compatível)
 * **Pandas** e **NumPy** para manipulação de dados.
 * **Matplotlib** e **Seaborn** para Análise Exploratória de Dados (EDA) e visualizações.
